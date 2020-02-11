@@ -1,0 +1,99 @@
+.card {
+	width: 200px;
+	min-height: 55px;
+	background: rgb(238, 17, 146);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	border-radius: 6px;
+	margin: 0 10px 30px 0px;
+}
+
+.card-text {
+	height: 35px;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1040;
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	opacity: .5;
+  }
+  
+  .modal-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1050;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	outline: 0;
+  }
+  .modal {
+	width: 500px;
+	position: fixed;
+	bottom: 90%;
+	left: 35%;
+	margin: 0px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 2px;
+	transform: translateY(100%);
+	transition: transform 0.2s ease;
+	box-shadow: 0 2px 8px 3px;
+	font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .modal-header {
+	display: flex;
+	justify-content: flex-end;
+  }
+  
+  .modal-close-button {
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	opacity: .3;
+	cursor: pointer;
+	border: none;
+  }
+
+button {
+	font-size: .9rem;
+	font-weight: 700;
+	border: none;
+	border-radius: 3px;
+	padding: .3rem 1rem;
+	margin-left: .5rem;
+  }
+  
+  .button-default {
+	background: #247BA0;
+	color: #fff;
+  }
+
+  .show {
+	display: block;
+  }
+  
+  .hide {
+	display: none;
+  }
+
+  .container {
+	width: 20%;
+	float: left;
+	background: rgba(141, 8, 86, 0.7);
+	border-radius: 10px;
+	padding: 25px;
+	margin: 50px 40px;
+	min-width: 330px;
+}
+
+
+  
